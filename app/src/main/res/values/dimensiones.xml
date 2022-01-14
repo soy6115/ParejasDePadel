@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="h1">40sp</dimen>
+    <dimen name="jugador">34sp</dimen>
+    <dimen name="rellenarJugador">30sp</dimen>
+    <dimen name="itemJugador">20sp</dimen>
+
+    <dimen name="marginTop">40dp</dimen>
+    <dimen name="marginLateral">30dp</dimen>
+    <dimen name="paddingStart">5dp</dimen>
+
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".actividades.APista">
+
+    <TextView
+        android:id="@+id/tvJugador1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginStart="@dimen/marginLateral"
+
+        android:text="@string/tvJugador1"
+        style="@style/jugadorResultado" />
+
+    <TextView
+        android:id="@+id/tvJugador2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="end"
+        android:layout_marginEnd="@dimen/marginLateral"
+
+        android:text="@string/tvJugador2"
+        style="@style/jugadorResultado" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:background="@drawable/vs"
+        android:contentDescription="@string/imageVs" />
+
+    <TextView
+        android:id="@+id/tvJugador3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="@dimen/marginLateral"
+
+        android:text="@string/tvJugador3"
+        style="@style/jugadorResultado"/>
+
+    <TextView
+        android:id="@+id/tvJugador4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="end"
+        android:layout_marginEnd="@dimen/marginLateral"
+
+        android:text="@string/tvJugador4"
+        style="@style/jugadorResultado"/>
+
+
+    <LinearLayout
+        android:id="@+id/clbotonera"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:id="@+id/btRehacer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="30sp"
+
+            android:background="@drawable/botonazar_custom"
+            android:contentDescription="@string/descripcionBtnRepetir"
+            />
+
+        <ImageButton
+            android:id="@+id/btNivel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_vertical"
+
+            android:background="@drawable/botonpornivel_custom"
+            android:contentDescription="@string/descripcionBtnPorNivel" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

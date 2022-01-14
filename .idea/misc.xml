@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Gus/AndroidStudioProjects/parejasdepadel/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.5703125" />
+        <entry key="..\:/Users/Gus/AndroidStudioProjects/parejasdepadel/app/src/main/res/drawable/bg_nuevojugador.xml" value="0.5703125" />
+        <entry key="..\:/Users/Gus/AndroidStudioProjects/parejasdepadel/app/src/main/res/drawable/botonazar_custom.xml" value="0.5703125" />
+        <entry key="..\:/Users/Gus/AndroidStudioProjects/parejasdepadel/app/src/main/res/drawable/botonjugadores_custom.xml" value="0.5703125" />
+        <entry key="..\:/Users/Gus/AndroidStudioProjects/parejasdepadel/app/src/main/res/drawable/botonmezclar_custom.xml" value="0.5703125" />
+        <entry key="..\:/Users/Gus/AndroidStudioProjects/parejasdepadel/app/src/main/res/drawable/botonpornivel_custom.xml" value="0.5703125" />
+        <entry key="..\:/Users/Gus/AndroidStudioProjects/parejasdepadel/app/src/main/res/drawable/botonrepetir_custom.xml" value="0.5703125" />
+        <entry key="..\:/Users/Gus/AndroidStudioProjects/parejasdepadel/app/src/main/res/drawable/ic_launcher_background.xml" value="0.5703125" />
+        <entry key="..\:/Users/Gus/AndroidStudioProjects/parejasdepadel/app/src/main/res/layout/activity_jugadores.xml" value="0.39221014492753625" />
+        <entry key="..\:/Users/Gus/AndroidStudioProjects/parejasdepadel/app/src/main/res/layout/activity_main.xml" value="0.39221014492753625" />
+        <entry key="..\:/Users/Gus/AndroidStudioProjects/parejasdepadel/app/src/main/res/layout/activity_pista.xml" value="0.39221014492753625" />
+        <entry key="..\:/Users/Gus/AndroidStudioProjects/parejasdepadel/app/src/main/res/layout/item_jugador.xml" value="0.5" />
+        <entry key="..\:/Users/Gus/AndroidStudioProjects/parejasdepadel/app/src/main/res/layout/nuevo_jugador.xml" value="0.39221014492753625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

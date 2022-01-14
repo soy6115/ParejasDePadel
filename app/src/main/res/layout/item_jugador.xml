@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="10dp">
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+        android:paddingStart="@dimen/paddingStart"
+
+        android:hint="@string/tvGus"
+        style="@style/itemJugador"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/tvNivel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_vertical"
+        android:layout_weight="2"
+        android:gravity="center"
+
+        android:hint="@string/hintNivel"
+        style="@style/itemJugador"/>
+
+    <ImageButton
+        android:id="@+id/btModificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_vertical"
+
+        android:background="@drawable/btn_mod"
+        android:contentDescription="@string/descripcionBtnModificar" />
+
+    <ImageButton
+        android:id="@+id/btEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_vertical"
+
+        android:background="@drawable/btn_borrar"
+        android:contentDescription="@string/descripcionBtnEliminar" />
+
+</LinearLayout>

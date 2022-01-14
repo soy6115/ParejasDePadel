@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Parejas de padel</string>
+    <string name="noHayJugadores">Aún no has registrado ningún jugador</string>
+    <string name="btnNuevoJugador">Botón para añadir nuevo jugador</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="tvNombre">Nombre</string>
+    <string name="tvNivel">Nivel</string>
+    <string name="h1Main">PAREJAS AL AZAR</string>
+    <string name="h1Jugadores">JUGADORES</string>
+    <string name="tvJugador1">Jugador 1</string>
+    <string name="tvJugador2">Jugador 2</string>
+    <string name="tvJugador3">Jugador 3</string>
+    <string name="tvJugador4">Jugador 4</string>
+    <string name="descripcionBtnRepetir">Botón de repetir sorteo</string>
+    <string name="descripcionBtnPorNivel">Botón de sortear por nivel</string>
+    <string name="descripcionBtnSortear">Botón de sortear</string>
+    <string name="descripcionBtnIrAJugadores">Botón de ir a jugadores</string>
+    <string name="tvGus">Gus</string>
+    <string name="hintNivel">10</string>
+    <string name="descripcionBtnModificar">Botón modificar</string>
+    <string name="descripcionBtnEliminar">Botón eliminar</string>
+    <string name="etNombreJugador">Nombre jugador</string>
+    <string name="etNivelUnoADiez">Nivel (1 a 7)</string>
+    <string name="btnCrear">Crear</string>
+    <string name="imageVs">Texto con VS y decoración</string>
+</resources>

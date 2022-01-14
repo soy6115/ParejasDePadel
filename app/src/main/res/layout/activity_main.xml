@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".actividades.MainActivity">
+
+    <TextView
+        android:id="@+id/H1ParejasAlAzar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginBottom="20dp"
+
+        android:text="@string/h1Main"
+        style="@style/h1" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/acNombre1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+
+        style="@style/rellenarJugador"
+        android:hint="@string/tvJugador1" />
+
+    <AutoCompleteTextView
+        android:id="@+id/acNombre2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+
+        style="@style/rellenarJugador"
+        android:hint="@string/tvJugador2"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/acNombre3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+
+        style="@style/rellenarJugador"
+        android:hint="@string/tvJugador3" />
+
+    <AutoCompleteTextView
+        android:id="@+id/acNombre4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+
+        style="@style/rellenarJugador"
+        android:hint= "@string/tvJugador4"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:layout_marginBottom="80dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <ImageButton
+                android:id="@+id/btSortear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginEnd="30dp"
+
+                android:background="@drawable/botonazar_custom"
+                android:contentDescription="@string/descripcionBtnSortear" />
+
+            <ImageButton
+                android:id="@+id/btSortearPorNivel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/botonpornivel_custom"
+                android:contentDescription="@string/descripcionBtnSortear" />
+
+        </LinearLayout>
+
+
+
+        <ImageButton
+            android:id="@+id/btVerJugadores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="20dp"
+
+            android:background="@drawable/btn_jugadores"
+            android:contentDescription="@string/descripcionBtnIrAJugadores"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

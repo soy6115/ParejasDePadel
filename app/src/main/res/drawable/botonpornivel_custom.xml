@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    Al estar presionado-->
+    <item android:drawable="@drawable/btn_nivel_hover"
+        android:state_pressed="true" />
+<!--    Cuando tiene el foco-->
+    <item android:drawable="@drawable/btn_nivel_hover"
+        android:state_focused="true" />
+<!--    Estado normal-->
+    <item android:drawable="@drawable/btn_nivel" />
+</selector>

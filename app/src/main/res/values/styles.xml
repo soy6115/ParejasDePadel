@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="h1">
+        <item name="android:fontFamily">@font/langdon</item>
+        <item name="android:textSize">@dimen/h1</item>
+        <item name="android:textColor">@color/amarillo</item>
+        <item name="android:shadowColor">@color/azulOscuro</item>
+        <item name="android:shadowRadius">7</item>
+    </style>
+
+    <style name="rellenarJugador">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/amarillo</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textSize">@dimen/rellenarJugador</item>
+        <item name="android:ems">10</item>
+        <item name="android:completionThreshold">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="jugadorResultado">
+        <item name="android:fontFamily">@font/komika</item>
+        <item name="android:textSize">@dimen/jugador</item>
+        <item name="android:textColor">@color/amarillo</item>
+        <item name="android:shadowColor">@color/azulOscuro</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:paddingStart">@dimen/paddingStart</item>
+    </style>
+
+    <style name="textoJugadores">
+        <item name="android:textSize">@dimen/itemJugador</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="itemJugador" parent="textoJugadores">
+        <item name="android:fontFamily">@font/komika</item>
+    </style>
+
+    <style name="crearJugador">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/azulOscuro</item>
+        <item name="android:textSize">@dimen/itemJugador</item>
+        <item name="android:ems">10</item>
+    </style>
+
+</resources>
